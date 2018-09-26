@@ -1,0 +1,28 @@
+{
+  "name": "http-logger",
+  "version": "1.0.0",
+  "description": "This is a custom http logger for general purposes",
+  "main": "server.js",
+  "scripts": {
+    "test": "curl -XPOST -d \"{'text':'Hello World'}\" http://localhost:7000",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/luizrobertofreitas/http-logger.git"
+  },
+  "keywords": [
+    "HTTP",
+    "HTTP",
+    "Logger",
+    "Logging",
+    "HTTP",
+    "Server"
+  ],
+  "author": "Luiz Roberto Freitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizrobertofreitas/http-logger/issues"
+  },
+  "homepage": "https://github.com/luizrobertofreitas/http-logger#readme"
+}
